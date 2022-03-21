@@ -1,0 +1,33 @@
+import java.util.ArrayList;
+
+public class Conta {
+	
+	int agencia;
+	int conta;
+	
+	
+	
+
+
+	public int getAgencia() {
+		return agencia;
+	}
+
+
+	public void setAgencia(int agencia) {
+		this.agencia = agencia;
+	}
+
+
+	public int getConta() {
+		return conta;
+	}
+
+
+	public void setConta(int conta) {
+		this.conta = conta;
+	}
+	
+
+
+}

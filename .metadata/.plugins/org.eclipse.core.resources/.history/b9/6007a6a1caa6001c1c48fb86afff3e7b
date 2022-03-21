@@ -1,0 +1,12 @@
+
+public class Conta {
+	
+	int agencia;
+	int conta;
+	
+	public Conta(int agencia, int conta) {
+		this.agencia=agencia;
+		this.conta=conta;
+	}
+
+}

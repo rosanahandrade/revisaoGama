@@ -1,0 +1,70 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class TesteConta {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int opcao;
+		int agencia;
+		int conta;
+		ArrayList <Conta> contas = new ArrayList();
+		
+		
+		while(true) {
+
+
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("===DIGITE A OPÇÃO DESEJADA===");
+		System.out.println("1 - Cadastrar ");
+		System.out.println("2 - Consultar");
+		
+		opcao=sc.nextInt();
+		
+		
+		
+		Conta c = new Conta();
+		switch (opcao) {
+		case 1: 
+			
+			System.out.println("Digite a AGÊNCIA: ");
+			c.agencia = sc.nextInt();
+			
+			System.out.println("Digite a CONTA: ");
+			c.conta = sc.nextInt();	
+			
+			contas.add(c);
+			
+			
+			break;
+			
+		case 2:
+
+			for (Conta cont : contas) {
+				
+				System.out.println("Agência: "+cont.getAgencia()+" "+"Conta: "+ cont.getConta());
+				
+				
+			}
+					
+
+		default:
+			
+		}
+		
+		
+		
+		
+		}	
+		
+		
+
+		
+		
+
+	}
+
+}

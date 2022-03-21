@@ -1,0 +1,12 @@
+ricardoalexandrebontempo@gmail.com
+
+1º) Criar uma tabela de correntista com os 6 campos abaixo
+
+Ag, Conta, Nome, Email, Telefone, Saldo
+
+2º) Inserir 4 registros nesta tabela.
+3º) Mostra através do select somente os campos Ag, Conta e Nome.
+4º) Mostrando somente a soma de todos os saldos dos correntistas.
+
+Código fonte em SQL
+https://wordpad.cc/Turma_Itau

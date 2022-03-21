@@ -1,0 +1,21 @@
+package testes;
+
+
+import java.util.Scanner;
+
+public class LacoEeMatriz {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String [] nomefuncionario=new String [];
+		Scanner sc = new Scanner(System.in);
+		
+		for(int i=0; i<10;i++) {
+			System.out.println("Entre com o :"+(i+1)+"º funcionário");
+			nomefuncionario[i]=sc.next();
+		}
+
+	}
+
+}

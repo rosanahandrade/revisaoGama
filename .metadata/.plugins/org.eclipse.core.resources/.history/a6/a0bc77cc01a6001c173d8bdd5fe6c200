@@ -1,0 +1,9 @@
+
+public class Metodo {
+	
+	public String exibe() {
+		String testando ="Teste";
+		return testando;
+	}
+
+}

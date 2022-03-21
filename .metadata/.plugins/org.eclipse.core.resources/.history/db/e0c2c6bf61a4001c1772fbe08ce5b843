@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class TesteRevisao {
+
+	public static void main(String[] args) {
+
+
+		String nome;
+		String sobrenome;
+		
+		Scanner sc =new Scanner(System.in);
+		
+		System.out.println("Nome: ");
+		nome = sc.next();
+		
+		System.out.println(" Sobrenome: ");
+		sobrenome = sc.next();
+		
+		
+		System.out.println(nome+" "+sobrenome);
+
+	}
+
+}

@@ -1,0 +1,14 @@
+
+public class TesteRevisao {
+
+	public static void main(String[] args) {
+
+
+		String nome = "Rosana";
+		String sobrenome = "Andrade";
+		
+		System.out.println(nome+" "+sobrenome);
+
+	}
+
+}

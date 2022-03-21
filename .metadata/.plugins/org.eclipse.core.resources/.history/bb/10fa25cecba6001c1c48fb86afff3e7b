@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+
+public class TesteConta {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<Conta> contas = new ArrayList();
+		
+		Conta c = new Conta(1234,524685);
+		
+		contas.add(c);
+		
+		for (Conta conta : contas) {
+			
+			System.out.println(conta.getAgencia()+conta.getConta());
+			
+		}
+		
+		
+
+		
+		
+
+	}
+
+}

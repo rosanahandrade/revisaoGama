@@ -1,0 +1,24 @@
+import java.io.File;
+
+public class LerArquivo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String mostra = "";
+		
+		String nomeArq = "C:\\Users\\rosan\\OneDrive\\Área de Trabalho\\funcionarios.txt";
+		
+		String linha = "";
+		
+		File arq = new File(nomeArq);
+		
+		if(arq.exists()) {
+			
+			mostra="Arquivo - "+arq+" -  aberto com sucesso.";
+			System.out.println(mostra);
+		}
+
+	}
+
+}

@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class TesteSenha {
+
+	public static void main(String[] args) {
+		// Autenticando senha por numeros de caracter
+		
+		int senha;
+		int senhavalida=1234;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Entre com a senha");
+		senha = sc.nextInt();
+		
+		if (senhavalida==senha) {
+			System.out.println("Senha correta");
+		}else {
+			System.out.println("Senha inválida");
+			
+		}
+
+	}
+
+}

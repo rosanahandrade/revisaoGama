@@ -1,0 +1,25 @@
+
+create table correntistas(
+id_corr int not null auto_increment primary key,
+agencia_corr int not null,
+conta_corr varchar (50) not null,
+nome_corr varchar(60) not null,
+email_corr varchar (50) not null,
+telefone_corr varchar (30) not null,
+saldo_corr double not null);
+
+insert into correntistas
+(agencia_corr,conta_corr,nome_corr,email_corr,telefone_corr,saldo_corr)
+values
+(4444,789654,"Ana Paula","ana@gmail.com","5842-4587",2572.50),
+(2222,765454,"Marcus Antonio","luis@gmail.com","5982-4047",1712.50),
+(4444,178654,"Bruno Andre","bruno@gmail.com","5511-4587",3258.50),
+(3333,879654,"Renato Augusto","caio@gmail.com","7892-4357",9172.50);
+
+select agencia_corr,conta_corr,nome_corr from correntistas;
+
+select sum(saldo_corr) as saldo_total from correntistas;
+
+select saldo_corr from correntistas;
+
+

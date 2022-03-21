@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+public class Conta {
+	
+	int agencia;
+	int conta;
+	ArrayList<Conta> contas;
+	
+	public Conta(int agencia, int conta) {
+		this.agencia=agencia;
+		this.conta=conta;
+	}
+	
+	public void cadastrar(Conta c) {
+		
+		contas.add(c);
+		
+
+	}
+
+}

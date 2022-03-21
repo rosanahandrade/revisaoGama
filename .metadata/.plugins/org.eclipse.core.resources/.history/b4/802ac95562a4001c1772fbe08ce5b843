@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class TesteRevisao {
+
+	public static void main(String[] args) {
+
+
+		String produto;
+		double vl_produto;
+		int qtdade_produto;
+		
+		Scanner sc =new Scanner(System.in);
+		
+		System.out.println("Nome do Produto: ");
+		produto = sc.next();
+		
+		System.out.println(" Valor : ");
+		vl_produto = sc.nextDouble();
+		
+		System.out.println(" Quantidade : ");
+		qtdade_produto = sc.nextInt();
+		
+		
+		
+		System.out.println("Produto: "+produto+" Valor unitário: "+vl_produto+" Quantidade: "+qtdade_produto);
+
+	}
+
+}

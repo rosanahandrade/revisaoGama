@@ -1,0 +1,9 @@
+
+public class Metodo {
+	
+	public String exibe() {
+		System.out.println("Teste");
+		return "Chamando método";
+	}
+
+}

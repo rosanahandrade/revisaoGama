@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Metodos extends Conta {
+	
+	public static void cadastrar() {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite a AGÊNCIA: ");
+		super.agencia = sc.nextInt();
+		
+		System.out.println("Digite a CONTA: ");
+		super.conta = sc.nextInt();	
+		
+		System.out.println("Digite o SALDO: ");
+		super.saldo = sc.nextDouble();	
+		
+		System.out.println("Digite a NOME: ");
+		super.nome = sc.next();	
+		
+		System.out.println("Digite a TELEFONE: ");
+		super.telefone = sc.next();	
+		
+		System.out.println("Digite a EMAIL: ");
+		super.email = sc.next();
+	}
+
+}

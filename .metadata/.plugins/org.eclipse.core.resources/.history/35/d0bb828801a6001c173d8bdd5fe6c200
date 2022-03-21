@@ -1,0 +1,8 @@
+
+public class Metodo {
+	
+	public String exibe() {
+		return "Chamando método";
+	}
+
+}
